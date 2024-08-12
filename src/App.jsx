@@ -55,6 +55,8 @@ const getWeatherIconUrl= (main)=>{
       return 'sun.png';
       case "Mist":
         return "thunder.png";
+      case "Clouds":
+        return "thunder.png"
       default:
         return null
    }
